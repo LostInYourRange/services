@@ -11,7 +11,6 @@ local services = {
 	mouse = game:GetService("Players").LocalPlayer:GetMouse();
 	sss = game:GetService("ServerScriptStorage");
 	ss = game:GetService("ServerStorage");
-	playanim = function(anim) game:GetService("Players").LocalPlayer.Character.Humanoid:LoadAnimation(anim):Play();
 };
 
 return services;
