@@ -9,8 +9,6 @@ local services = {
 	http = game:GetService("HttpService");
 	uis = game:GetService("UserInputService");
 	mouse = game:GetService("Players").LocalPlayer:GetMouse();
-	sss = game:GetService("ServerScriptStorage");
-	ss = game:GetService("ServerStorage");
 };
 
 return services;
